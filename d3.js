@@ -42,12 +42,14 @@ const data = [
   svg.append("text")
   .attr("class", "x label")
   .attr("text-anchor", "middle")
+ .attr("fill","white")
 .attr("font-size", 20)
   .attr("transform", "translate(" + (width / 2) + "," + (height + margin.bottom -52) + ")")
   .text("City Name");
 
   svg.append("text")
   .attr("class", "y label")
+ .attr("fill","white")
 .attr("font-size", 20)
   .attr("text-anchor", "middle")
   .attr("transform", "rotate(-90) translate(" + (-height/2) + "," + (-margin.left + 20) + ")")
