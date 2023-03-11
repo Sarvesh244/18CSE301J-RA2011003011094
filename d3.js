@@ -29,7 +29,7 @@ const data = [
   
   svg
     .append("g")
-    .attr("fill", 'royalblue')
+    .attr("fill", 'purple')
     .selectAll("rect")
     .data(data.sort((a, b) => d3.descending(a.doctorCount, b.doctorCount)))
     .join("rect")
